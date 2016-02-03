@@ -1,1 +1,1 @@
-tar --exclude dist --exclude .git -vczf dist/blogs-$BUILD_NUMBER-$GIT_COMMIT.tar.gz .
+tar --exclude dist --exclude .git -vczf dist/blogs-$PARAM_BUILD_NUMBER-$PARAM_GIT_COMMIT.tar.gz .
