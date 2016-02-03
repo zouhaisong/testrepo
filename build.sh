@@ -1,0 +1,1 @@
+tar --exclude dist --exclude .git -vczf dist/blogs-$BUILD_NUMBER-$GIT_COMMIT.tar.gz .
